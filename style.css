@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #24252d;
+    display: grid;
+    place-items: center;
+}
+
+.content {
+    height: 60%;
+    width: 50%;
+    background-color: #1d1e26;
+    border-radius: 12px;
+}
+
+.close {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.closeIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #17181f;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    color: rgb(91, 97, 120);
+}
+
+.title p {
+    color: rgb(114, 111, 125);
+}
+
+.cardContainer {
+    display: grid;
+    place-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 80%;
+    height: 40px;
+}
+
+.card {
+    height: inherit;
+    width: 30%;
+    background-color: #17181f;
+    color: rgb(91, 97, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.selected {
+    border: 1px solid rgb(232, 72, 72);
+    color: rgb(216, 216, 216);
+    box-shadow: 0px 0px 6px 0px rgb(189, 96, 96);
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.skip {
+    color: rgb(91, 97, 120);
+    background-color: #1d1e26;
+    border: 1px solid #0a0b11;
+}
+
+.save {
+    background-color: #c64162;
+    color: rgb(216, 216, 216);
+}
